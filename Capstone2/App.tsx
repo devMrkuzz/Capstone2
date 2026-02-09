@@ -1,7 +1,11 @@
 // App.tsx
 import { StatusBar } from "expo-status-bar";
-import SignIn from "./auth/SignIn"; // import the SignIn component
+import SignIn from "./auth/SignIn";
 
 export default function App() {
-  return <SignIn />; // render SignIn as the main screen
+  return (
+    <>
+      <SignIn />
+    </>
+  );
 }
