@@ -1,11 +1,5 @@
-// App.tsx
-import { StatusBar } from "expo-status-bar";
-import SignIn from "./auth/SignIn";
+import AppNavigator from "./navigation/navigate";
 
 export default function App() {
-  return (
-    <>
-      <SignIn />
-    </>
-  );
+  return <AppNavigator />;
 }
